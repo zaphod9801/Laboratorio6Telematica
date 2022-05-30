@@ -26,11 +26,13 @@ El codigo a continuación:
 
 ## Parte 2
 
+Para esta parte, se descargará el archivo dado por el profesor y lo importaremos en nuestro propio JupyterHub:
 ![image](https://user-images.githubusercontent.com/71454879/170911563-d2c8bb21-cdae-4f3a-b772-f25573827664.png)
 
-Archivo:
+Al abrirlo veremos lo siguiente, es importante para que funcione correctamente cambiar el kernel de Python 3 a PySpark:
 ![image](https://user-images.githubusercontent.com/71454879/170911635-01f753f7-6ad0-4b95-abb8-2cb768a99bb7.png)
 
+Este archivo obtiene un dataset dado, en este caso sample_data.csv, y le realiza varias operaciones tales como obtener sus columnas, sus tipos de datos, seleccionar columnas en especifico para ser mostradas, agregar columnas nuevas usando otra columna como base con modificaciones, realizar diferentes filtros para obtener datos, ordenamiento y agrupamiento; entre otras.
 ![image](https://user-images.githubusercontent.com/71454879/170913440-d2182aed-fcb4-4615-87da-6c7b02a25c39.png)
 ![image](https://user-images.githubusercontent.com/71454879/170913455-1f69b1ad-2a3f-48d5-a569-ef2d618890fd.png)
 ![image](https://user-images.githubusercontent.com/71454879/170913470-3efd02e6-5513-43f4-8b1a-6d47fbf20739.png)
