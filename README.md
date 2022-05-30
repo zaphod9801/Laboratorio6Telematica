@@ -2,23 +2,30 @@
 
 Como prerequisito para este laboratorio ir al siguiente repositorio y seguir sus pasos: 
 
-Entrar a pyspark:
+## Parte 1
+
+Lo primero es que deberemos entrar a la consola de pyspark, para esto basta con escribir pyspark en la terminal:
 ![image](https://user-images.githubusercontent.com/71454879/170909081-ed90b890-ae15-4e31-b774-e8eb02f0dda4.png)
 
-El programa en hdfs:
+A continuación se muestra como sería el codigo en Python para realizar un WordCount en un dataset dado en el hdfs, en este caso el correspondiente a gutenberg-small, es importante destacar que en el primer comando debemos estar seguros de la ruta en la que esté ubicado nuestro datasets en el hdfs:
 ![image](https://user-images.githubusercontent.com/71454879/170909448-b1d90c73-af12-4a96-90ba-a6b562c5e5d4.png)
 Salida del programa:
 ![image](https://user-images.githubusercontent.com/71454879/170909478-de7564fa-2069-4ed5-a51f-dc18c46d0002.png)
 
-S3:
+Ahora, para el S3, se puede hacer también desde el nodo maestro del cluster EMR y con el mismo programa, basta con cambiar la ruta a la correspondiente en el S3:
 ![image](https://user-images.githubusercontent.com/71454879/170910306-52089680-5d90-4ebf-b323-e5fbaa99a6d7.png)
-Salida:
+Salida del programa:
 ![image](https://user-images.githubusercontent.com/71454879/170910349-01bf3896-6a12-4dc0-af93-084d6b5bbf97.png)
 
-Jupyter:
+Posteriormente, para JupyterHub, lo primero será ingresar mediante el enlace que nos provee el cluster EMR en el apartado de "Application user interfaces":
+![image](https://user-images.githubusercontent.com/71454879/170916586-31bf7e65-7824-405d-828b-af592add77a0.png)
+Después de logearnos, creamos un nuevo cuaderno de tipo PySpark; aqui irá el mismo codigo que usamos para el S3:
+![image](https://user-images.githubusercontent.com/71454879/170917396-2fb6c23a-d761-4bd2-8f4d-a40f303ecaeb.png)
+El codigo a continuación:
 ![image](https://user-images.githubusercontent.com/71454879/170911107-96418c4b-e193-4948-a5d7-8b49dd9bf99f.png)
 
-Parte 2:
+## Parte 2
+
 ![image](https://user-images.githubusercontent.com/71454879/170911563-d2c8bb21-cdae-4f3a-b772-f25573827664.png)
 
 Archivo:
